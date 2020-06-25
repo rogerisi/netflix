@@ -1,0 +1,15 @@
+.flex-nav {
+    height: 100px; 
+    display: flex;
+    justify-content: space-between;
+}  
+
+.flex-nav-space {
+    margin-right: 4%;
+    margin-top: 2%;
+} 
+
+.flex-nav-img { 
+    margin-left: 4%;
+    margin-top: 5px;
+} 
