@@ -6,13 +6,13 @@ const sectionMain = {
     h5:"Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura"
 } 
 
-sectionMainIndex.forEach(e=> {
+sectionMainIndex.forEach(e => {
     let idSectionMain = `section__main__${e}` 
     document.getElementById(idSectionMain).innerHTML = sectionMain[e] 
 }) 
 
 const mostrarTextoPorPosicao = (arg) => {  
-    let classe  =  `content${arg}`
+    let classe   =  `content${arg}`
     let elemento =  document.getElementById(classe); 
     let texto = conteudosPerguntasFrequentes[arg]; 
     let styleDisplay = ``;  
