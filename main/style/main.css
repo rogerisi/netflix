@@ -7,6 +7,23 @@ h3  { font-family: 'Roboto', sans-serif; font-size: 25px; }
 h5  { font-family: 'Roboto', sans-serif; font-size: 16px; }  
 h4  {font-family:  'Roboto', sans-serif; font-size: 20px;} 
 
+@media(max-width:600px){
+    hr  { border: 0; border-top: 15px solid #1C1C1C;}
+    h1  { font-family: 'Roboto', sans-serif; font-size: 25px; font-weight: 700; }
+    h3  { font-family: 'Roboto', sans-serif; font-size: 18px; } 
+    h5  { font-family: 'Roboto', sans-serif; font-size: 16px; }  
+    h4  {font-family: 'Roboto', sans-serif; font-size: 13px;}   
+}
+
+#section__main__h5{
+    margin-top: 10px;
+} 
+
+.margin__top__h4 {
+    margin-top: 15px;
+    color: white;
+} 
+
 #input__article__main {
     padding-left: 20px;
     height: 55px;
@@ -193,14 +210,6 @@ h4  {font-family:  'Roboto', sans-serif; font-size: 20px;}
     margin-left: 4%;
     margin-top: 5px;
 }  
-
-@media(max-width:600px){
-    hr  { border: 0; border-top: 15px solid #1C1C1C;}
-    h1  { font-family: 'Roboto', sans-serif; font-size: 25px; font-weight: 700; }
-    h3  { font-family: 'Roboto', sans-serif; font-size: 18px; } 
-    h5  { font-family: 'Roboto', sans-serif; font-size: 16px; }  
-    h4  {font-family: 'Roboto', sans-serif; font-size: 13px;}   
-}
 
 #btn-nav {
     color:white; 
